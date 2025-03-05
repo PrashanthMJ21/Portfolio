@@ -1,3 +1,3 @@
 FROM tomcat:9-jre9
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
-COPY ./Portfolio.war /usr/local/tomcat/webapps/ROOT.war
+COPY ./magicpin.war /usr/local/tomcat/webapps/ROOT.war
