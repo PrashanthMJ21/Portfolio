@@ -15,4 +15,4 @@
       command: docker rm -f webdeploy
 
     - name: Run new container
-      command: docker run -d --name webdeploy -p 8080:8080 pmj41/webdeploy
+      command: docker run -d --name webdeploy -p 8081:8080 pmj41/webdeploy
