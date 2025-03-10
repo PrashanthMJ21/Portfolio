@@ -1,6 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #fff; /* Default text color */
+        }
 
-<section>
-    <h2>Education</h2>
-    <p>GITAM University, Bengaluru - B.E. in CSE (AI&ML) - CGPA: 7.45 (2020 - 2024)</p>
-    <p>Sri Sathya Sai Loka Seva PU College - 72.33% (2018 - 2020)</p>
-</section>
+        #education {
+            background-color: #1e1e1e; /* Dark gray card */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            max-width: 800px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #education:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+        }
+
+        #education h2 {
+            font-size: 28px;
+            color: #00bcd4; /* Cyan heading */
+            margin-bottom: 15px;
+            transition: color 0.3s ease;
+        }
+
+        #education h2:hover {
+            color: #ff4081; /* Pink hover effect */
+        }
+
+        #education p {
+            font-size: 18px;
+            color: #ccc; /* Light gray text */
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        }
+
+        #education p:hover {
+            background: #00bcd4; /* Cyan hover effect */
+            color: #121212; /* Dark text on hover */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>GITAM University, Bengaluru - B.E. in CSE (AI&ML) - CGPA: 7.45 (2020 - 2024)</p>
+        <p>Sri Sathya Sai Loka Seva PU College - 72.33% (2018 - 2020)</p>
+        <p>Sri Sathya Sai Saraswathi Boys High School, Mandya - 79.61% (10th Grade)</p>
+    </section>
+
+</body>
+</html>
