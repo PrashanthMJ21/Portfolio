@@ -1,16 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212; /* Dark background */
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+        }
 
-<section>
-    <h2>Projects</h2>
-    <div class="project-card">
-        <h3>Customized Gesture Recognition</h3>
-        <p>Developed a CNN-based hand gesture recognition system using OpenCV and MediaPipe.</p>
-    </div>
-    <div class="project-card">
-        <h3>Web Application Deployment with Ansible</h3>
-        <p>Automated deployment of a web app to Apache Tomcat using AWS, Git, Maven, and Jenkins.</p>
-    </div>
-    <div class="project-card">
-        <h3>Web App Deployment to Kubernetes</h3>
-        <p>Designed and deployed a scalable web app in a Kubernetes cluster.</p>
-    </div>
-</section>
+        /* Projects Section */
+        #projects {
+            margin: 50px auto;
+            padding: 40px;
+            max-width: 900px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #projects:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+        }
+
+        #projects h2 {
+            font-size: 28px;
+            color: #00bcd4;
+            transition: color 0.3s ease;
+        }
+
+        #projects h2:hover {
+            color: #ff4081;
+        }
+
+        .project-card {
+            background: #2a2a2a;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            background: #00bcd4;
+            color: #121212;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .project-card h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .project-card:hover h3 {
+            color: #ff4081;
+        }
+
+        .project-card p {
+            font-size: 18px;
+            color: #ccc;
+            transition: color 0.3s ease;
+        }
+
+        .project-card:hover p {
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="projects">
+        <h2>Projects 🚀</h2>
+
+        <div class="project-card">
+            <h3>Customized Gesture Recognition</h3>
+            <p>Developed a deep learning-based hand gesture recognition system using Convolutional Neural Networks (CNN).</p>
+            <p>Integrated **OpenCV** for real-time image processing and **MediaPipe** for accurate hand landmark detection.</p>
+            <p>This system can be used in **gesture-based UI controls, gaming, and assistive technologies**.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Web Application Deployment with Ansible</h3>
+            <p>Automated the deployment of a Java-based web application to **Apache Tomcat** using **Ansible** for configuration management.</p>
+            <p>Integrated **AWS EC2**, **GitHub**, **Maven**, and **Jenkins** to streamline the CI/CD pipeline.</p>
+            <p>Ensured seamless deployment with **zero downtime**, improving efficiency and scalability.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Web App Deployment to Kubernetes</h3>
+            <p>Designed and deployed a **containerized web application** on a **Kubernetes cluster**, ensuring high availability and scalability.</p>
+            <p>Built **Docker images**, stored them in **DockerHub**, and used Kubernetes for **orchestration and load balancing**.</p>
+            <p>Implemented **auto-scaling** to dynamically manage traffic and optimize resource utilization.</p>
+        </div>
+
+    </section>
+
+</body>
+</html>
