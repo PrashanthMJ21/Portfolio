@@ -1,11 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Skills</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212; /* Dark background */
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+        }
 
-<section>
-    <h2>Technical Skills</h2>
-    <ul>
-        <li><strong>Programming Languages:</strong> Core Java, JavaScript - Experienced in developing scalable applications.</li>
-        <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript - Skilled in front-end web development and responsive UI design.</li>
-        <li><strong>Cloud Computing:</strong> AWS - Hands-on experience with AWS cloud services.</li>
-        <li><strong>DevOps Tools:</strong> Git, Jenkins, Docker, Kubernetes - Proficient in automation, CI/CD pipelines.</li>
-        <li><strong>Networking:</strong> TCP/IP, DNS, VLANs, VPNs, Firewalls - Strong understanding of network security.</li>
-    </ul>
-</section>
+        /* Skills Section */
+        #skills {
+            margin: 50px auto;
+            padding: 40px;
+            max-width: 900px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #skills:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+        }
+
+        #skills h2 {
+            font-size: 28px;
+            color: #00bcd4;
+            transition: color 0.3s ease;
+        }
+
+        #skills h2:hover {
+            color: #ff4081;
+        }
+
+        #skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #skills li {
+            font-size: 18px;
+            color: #ccc;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 8px;
+            transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        }
+
+        #skills li:hover {
+            background: #00bcd4;
+            color: #121212;
+            transform: scale(1.05);
+        }
+
+        #skills strong {
+            color: #ff4081;
+            transition: color 0.3s ease;
+        }
+
+        #skills li:hover strong {
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="skills">
+        <h2>Technical Skills 🚀</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Core Java, JavaScript - Experienced in developing scalable applications.</li>
+            <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript - Skilled in front-end web development and responsive UI design.</li>
+            <li><strong>Cloud Computing:</strong> AWS - Hands-on experience with AWS cloud services.</li>
+            <li><strong>DevOps Tools:</strong> Git, Jenkins, Docker, Kubernetes - Proficient in automation, CI/CD pipelines.</li>
+            <li><strong>Infrastructure as Code (IaC):</strong> Terraform, Ansible - Expertise in automating infrastructure deployment.</li>
+            <li><strong>Networking:</strong> TCP/IP, DNS, VLANs, VPNs, Firewalls - Strong understanding of network security and troubleshooting.</li>
+            <li><strong>Operating Systems:</strong> Windows, Linux - Comfortable with system administration and shell scripting.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
