@@ -1,7 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Dark background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #fff; /* Default text color */
+        }
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:mjnaveen41@gmail.com">mjnaveen41@gmail.com</a></p>
-    <p>Phone: 9742185020</p>
-    <p><a href="https://github.com/PrashanthMJ21" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/prashanth-m-jadar-b42b42208" target="_blank">LinkedIn</a></p>
-</section>
+        #contact {
+            background-color: #1e1e1e; /* Dark gray card */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            max-width: 800px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #contact:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+        }
+
+        #contact h2 {
+            font-size: 28px;
+            color: #00bcd4; /* Cyan heading */
+            margin-bottom: 15px;
+            transition: color 0.3s ease;
+        }
+
+        #contact h2:hover {
+            color: #ff4081; /* Pink hover effect */
+        }
+
+        #contact p {
+            font-size: 18px;
+            color: #ccc; /* Light gray text */
+            margin: 10px 0;
+            transition: color 0.3s ease;
+        }
+
+        #contact p:hover {
+            color: #fff; /* White on hover */
+        }
+
+        #contact a {
+            text-decoration: none;
+            color: #00bcd4;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.2s ease;
+        }
+
+        #contact a:hover {
+            color: #ff4081; /* Pink hover effect */
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:mjnaveen41@gmail.com">mjnaveen41@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919742185020">9742185020</a></p>
+        <p>Address: C/O Mallappa, 23/4/10, near temple, 12th cross, Parvathipura, Adiganahalli, PO: Rajanakunte, Bengaluru, Karnataka, 560064</p>
+        <p>
+            <a href="https://github.com/PrashanthMJ21" target="_blank">GitHub</a> | 
+            <a href="https://www.linkedin.com/in/prashanth-m-jadar-b42b42208" target="_blank">LinkedIn</a>
+        </p>
+    </section>
+
+</body>
+</html>
